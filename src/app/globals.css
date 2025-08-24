@@ -1,0 +1,291 @@
+@import "tailwindcss";
+
+:root {
+  --background: #150E21;
+  --foreground: #ededed;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-inter: var(--font-inter);
+  --font-roboto: var(--font-roboto);
+  --font-geologica: "Geologica", sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geologica), Arial, Helvetica, sans-serif;
+  overflow-x: hidden !important;
+  font-size: 14px;
+}
+
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/proximanova_boldit.otf") format("opentype");
+}
+
+
+.display-font {
+  font-family: "Proxima Nova", sans-serif;
+  line-height: 1!important;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.floating-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+.angled-button {
+  position: relative;
+  transform: skew(-10deg);
+  transition: all 0.3s ease;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 15;
+}
+
+.angled-button:hover {
+  transform: skew(-10deg) scale(1.05);
+}
+
+.angled-button-content {
+  transform: skew(10deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.angled-button-pink {
+  background: #ff0080;
+  color: black;
+}
+
+.angled-button-white {
+  background: white;
+  color: black;
+}
+
+.bg-img-hero{
+  background-image: url("/Desktop.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bg-img-hero::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-image: url("/hero-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  mix-blend-mode: color-dodge;
+  
+}
+
+.bg-img-hero::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-image: url("/hero-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  mix-blend-mode: color-dodge;
+  
+}
+
+.bg-img-hero-reverse{
+  position: relative;
+}
+
+.bg-img-hero-reverse::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleY(-1);
+  z-index: -2; 
+  background-image: url("/Desktop.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  
+}
+
+.bg-img-hero-reverse::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleY(-1);
+  z-index: -1;
+  background-image: url("/hero-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  mix-blend-mode: color-dodge;
+  
+}
+
+.border-w33{
+  border-color: #ffffff55;
+}
+
+.video-gradient-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(
+    90deg,
+    #150E21 0%,
+    transparent 20%,
+    transparent 80%,
+    #150E21 100%
+  );
+}
+
+.video-gradient-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(
+    0deg,
+    #150E21 0%,
+    transparent 20%,
+    transparent 80%,
+    #150E21 100%
+  );
+}
+
+.backdrop-gradient{
+  display: block;
+  position: relative;
+}
+
+.backdrop-gradient::before{
+  content: "";
+  position: absolute;
+  width: 40rem;
+  height: 25rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  background: linear-gradient(90deg, rgba(37, 183, 247, 0.54) 0%, rgba(247, 37, 134, 0.54) 100%);
+  filter: blur(316.85px);
+}
+
+.bg-gradient-blur{
+  position: relative;
+}
+
+.bg-gradient-blur::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("/bg-lines.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  background-attachment: fixed;
+}
+
+.bg-gradient-blur::after{
+  content: "";
+  position: absolute;
+  width: 40rem;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(37, 183, 247, 0.54) 0%, rgba(247, 37, 134, 0.54) 100%);
+  filter: blur(316.85px);
+  opacity: 0.5;
+}
+
+.card-before{
+  display: block;
+}
+
+.card-before > div{
+  position: relative;
+  z-index: 2;
+}
+
+.card-before::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #150e21;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.card-updates::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #150e21 0%, #150e211f 100%);
+  opacity: 0.7;
+  z-index: 0;
+}
+
+
+
+
+
+
+

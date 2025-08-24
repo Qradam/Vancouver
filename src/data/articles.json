@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "slug": "lorem-ipsum-1",
+    "title": "Lorem Ipsum",
+    "type": "NEWS",
+    "image": "/temp-img.webp",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-15",
+    "author": "Vancouver Impact"
+  },
+  {
+    "id": 2,
+    "slug": "lorem-ipsum-2", 
+    "title": "Lorem Ipsum",
+    "type": "NEWS",
+    "image": "/temp-img.webp",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-14",
+    "author": "Vancouver Impact"
+  },
+  {
+    "id": 3,
+    "slug": "lorem-ipsum-3",
+    "title": "Lorem Ipsum", 
+    "type": "NEWS",
+    "image": "/temp-img.webp",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-13",
+    "author": "Vancouver Impact"
+  },
+  {
+    "id": 4,
+    "slug": "team-announcement-2025",
+    "title": "Team Roster Announcement 2025",
+    "type": "ANNOUNCEMENT",
+    "image": "/temp-img.webp",
+    "excerpt": "Vancouver Impact reveals its complete roster for the upcoming competitive season with new strategic additions.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-12",
+    "author": "Vancouver Impact"
+  },
+  {
+    "id": 5,
+    "slug": "tournament-victory",
+    "title": "Major Tournament Victory",
+    "type": "ACHIEVEMENT",
+    "image": "/temp-img.webp",
+    "excerpt": "Our team secures a decisive victory in the latest major tournament, showcasing exceptional teamwork and strategy.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-11",
+    "author": "Vancouver Impact"
+  },
+  {
+    "id": 6,
+    "slug": "partnership-announcement",
+    "title": "New Partnership Announcement",
+    "type": "PARTNERSHIP",
+    "image": "/temp-img.webp",
+    "excerpt": "Vancouver Impact announces exciting new partnership with leading gaming technology company.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-10",
+    "author": "Vancouver Impact"
+  },
+  {
+    "id": 7,
+    "slug": "community-event",
+    "title": "Community Meet & Greet Event",
+    "type": "EVENT",
+    "image": "/temp-img.webp",
+    "excerpt": "Join us for an exclusive community event where fans can meet the team and participate in special activities.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-09",
+    "author": "Vancouver Impact"
+  },
+  {
+    "id": 8,
+    "slug": "training-facility",
+    "title": "New Training Facility Opening",
+    "type": "FACILITY",
+    "image": "/temp-img.webp",
+    "excerpt": "State-of-the-art training facility now open, featuring cutting-edge equipment and dedicated practice spaces.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-08",
+    "author": "Vancouver Impact"
+  },
+  {
+    "id": 9,
+    "slug": "merchandise-launch",
+    "title": "New Merchandise Collection Launch",
+    "type": "MERCHANDISE",
+    "image": "/temp-img.webp",
+    "excerpt": "Exclusive new merchandise collection featuring team jerseys, accessories, and limited edition items now available.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-07",
+    "author": "Vancouver Impact"
+  },
+  {
+    "id": 10,
+    "slug": "season-preview",
+    "title": "2025 Season Preview",
+    "type": "PREVIEW",
+    "image": "/temp-img.webp",
+    "excerpt": "Comprehensive preview of the upcoming competitive season with analysis of key matchups and team strategies.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-06",
+    "author": "Vancouver Impact"
+  },
+  {
+    "id": 11,
+    "slug": "charity-tournament",
+    "title": "Charity Tournament Success",
+    "type": "CHARITY",
+    "image": "/temp-img.webp",
+    "excerpt": "Record-breaking charity tournament raises significant funds for local community organizations and causes.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date": "2025-01-05",
+    "author": "Vancouver Impact"
+  }
+]
+
