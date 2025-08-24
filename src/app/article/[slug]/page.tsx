@@ -3,16 +3,17 @@ import Link from 'next/link';
 import articles from '../../../data/articles.json';
 
 interface ArticlePageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
-export default function ArticlePage({ params }: ArticlePageProps) {
-  const article = articles.find(article => article.slug === params.slug);
+export default async function ArticlePage({ params }: ArticlePageProps) {
+  const { slug } = await params;
+  const article = articles.find(article => article.slug === slug);
 
   if (!article) {
-    console.log('Article not found for slug:', params.slug);
+    console.log('Article not found for slug:', slug);
     console.log('Available slugs:', articles.map(a => a.slug));
     notFound();
   }

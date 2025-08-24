@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 
 export default function CharacterCards() {
   return (
@@ -17,7 +17,7 @@ export default function CharacterCards() {
             <img src="/" alt="" />
           </div>
           <div className="text-center">
-            <p className="text-sm text-gray-400 mb-2">Name "name" name</p>
+            <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>
             <h2 className="text-4xl text-white font-bold italic">NAME 1</h2>
           </div></div>
           <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
@@ -34,7 +34,7 @@ export default function CharacterCards() {
             <img src="/" alt="" />
           </div>
           <div className="text-center">
-            <p className="text-sm text-gray-400 mb-2">Name "name" name</p>
+            <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>
             <h2 className="text-4xl text-white font-bold italic">NAME 1</h2>
           </div></div>
           <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
@@ -51,7 +51,7 @@ export default function CharacterCards() {
             <img src="/" alt="" />
           </div>
           <div className="text-center">
-            <p className="text-sm text-gray-400 mb-2">Name "name" name</p>
+            <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>
             <h2 className="text-4xl text-white font-bold italic">NAME 1</h2>
           </div></div>
           <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
@@ -68,7 +68,7 @@ export default function CharacterCards() {
             <img src="/" alt="" />
           </div>
           <div className="text-center">
-            <p className="text-sm text-gray-400 mb-2">Name "name" name</p>
+            <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>
             <h2 className="text-4xl text-white font-bold italic">NAME 1</h2>
           </div></div>
           <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
@@ -85,7 +85,7 @@ export default function CharacterCards() {
             <img src="/" alt="" />
           </div>
           <div className="text-center">
-            <p className="text-sm text-gray-400 mb-2">Name "name" name</p>
+            <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>
             <h2 className="text-4xl text-white font-bold italic">NAME 1</h2>
           </div></div>
           <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
