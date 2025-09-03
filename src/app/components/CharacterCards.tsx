@@ -6,7 +6,7 @@ export default function CharacterCards() {
       {/* Original content */}
       <div className=" w-[90%] py-[4rem] flex flex-col gap-[2rem] items-center justify-center mb-12">
         <img src="/logoxleague.png" alt="League" className="" />
-        <h2 className="text-4xl text-white italic"><span className='font-bold'>Lorem ipsum dolor</span> sit amet consectetur. Congue </h2>
+        <h2 className="text-4xl text-white italic"><span className='font-bold'>Vancouver Impact Roster </span> </h2>
       </div>
       
       {/* Card 1 */}

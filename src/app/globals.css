@@ -23,6 +23,10 @@ body {
   font-size: 14px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 @font-face {
   font-family: "Proxima Nova";
@@ -80,6 +84,11 @@ body {
 
 .angled-button-white {
   background: white;
+  color: black;
+}
+
+.angled-button-purple {
+  background: #8d50a9;
   color: black;
 }
 

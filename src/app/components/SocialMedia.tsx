@@ -30,7 +30,7 @@ export default function SocialMedia() {
         </Link>
         
         <Link 
-          href="https://x.com" 
+          href="https://twitter.com/VancouverImpact" 
           target="_blank" 
           rel="noopener noreferrer"
           className="group relative bg-[#150E2190] w-full md:w-[48%] lg:w-[25%] py-[2rem] border border-[0.8px] border-w33 flex flex-col gap-[2rem] items-center justify-center cursor-pointer transition-all duration-300"
@@ -51,7 +51,7 @@ export default function SocialMedia() {
         }`}
       >
         <Link 
-          href="https://twitch.tv" 
+          href="https://www.twitch.tv/vancouverimpact" 
           target="_blank" 
           rel="noopener noreferrer"
           className="group relative bg-[#150E2190] w-full md:w-[48%] lg:w-[25%] py-[2rem] border border-[0.8px] border-w33 flex flex-col gap-[2rem] items-center justify-center cursor-pointer transition-all duration-300 mb-4 md:mb-0"
@@ -65,7 +65,7 @@ export default function SocialMedia() {
         </Link>
         
         <Link 
-          href="https://youtube.com" 
+          href="https://www.youtube.com/@NACL" 
           target="_blank" 
           rel="noopener noreferrer"
           className="group relative bg-[#150E2190] w-full md:w-[48%] lg:w-[25%] py-[2rem] border border-[0.8px] border-w33 flex flex-col gap-[2rem] items-center justify-center cursor-pointer transition-all duration-300"

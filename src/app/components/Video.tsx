@@ -36,7 +36,7 @@ export default function Video() {
           }`}
         >
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white italic">
-            NACL montage 
+            Highlights 
           </h2>
         </div>
       </div>

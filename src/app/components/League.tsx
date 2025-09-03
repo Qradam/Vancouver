@@ -32,7 +32,7 @@ export default function League() {
                 titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`}
             >
-              Lorem ipsum dolor sit amet consectetur. Congue 
+              Watch Live, Check the Schedule, or Review the Recent Match
             </h2>
             
             <div 
@@ -43,16 +43,24 @@ export default function League() {
             >
               <button className="angled-button angled-button-pink px-6 md:px-8 py-2 md:py-3 text-sm md:text-base">
                 <div className="angled-button-content">
-                  BUTTON
+                  <a href="https://www.twitch.tv/nacl" target="_blank" rel="noopener noreferrer">LIVE</a>
                 </div>
               </button>
+
               <button className="angled-button angled-button-white px-6 md:px-8 py-2 md:py-3 text-sm md:text-base">
                 <div className="angled-button-content">
-                  BUTTON
+                  <a href="https://lolesports.com/teams/vancouver-impact" target="_blank" rel="noopener noreferrer">SCHEDULE</a>
                 </div>
               </button>
+
+              <button className="angled-button angled-button-purple px-6 md:px-8 py-2 md:py-3 text-sm md:text-base">
+                <div className="angled-button-content">
+                  <a href="https://www.twitch.tv/videos/2534785642?t=2h36m51s" target="_blank" rel="noopener noreferrer">VOD</a>
+                </div>
+              </button>
+              
             </div>
         </div>
     </section> 
-  );
+  ); 
 }

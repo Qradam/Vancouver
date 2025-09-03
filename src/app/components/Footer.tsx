@@ -1,6 +1,9 @@
 import Link from 'next/link';
 
 export default function Footer() {
+
+  const navItems = [{name: 'HOME', href: '#hero'}, {name: 'TEAM', href: '#characterCards'}, {name: 'ABOUT US', href: '#aboutUs'}, {name: 'SOCIAL MEDIA', href: '#socialMedia'}, {name: 'CONTACT', href: '#footer'}];
+
   return (
     <footer className="py-8 px-6 bg-gray-900/50 border-t border-gray-800">
       <div className="max-w-7xl mx-auto">
@@ -14,15 +17,16 @@ export default function Footer() {
           </div>
           
           <nav className="flex space-x-8">
-            {['HOME', 'TEAM', 'ABOUT US', 'SOCIAL MEDIA', 'CONTACT'].map((item) => (
-              <Link
-                key={item}
-                href="#"
-                className="text-white uppercase font-medium hover:text-pink-400 transition-colors duration-300"
-              >
-                {item}
-              </Link>
-            ))}
+          {navItems.map((item) => (
+          <Link
+            key={item.name}
+            href={item.href}
+            scroll={true}
+            className="text-white uppercase font-medium hover:text-pink-400 transition-colors duration-300 hover:scale-105 transform"
+          >
+            {item.name}
+          </Link>
+        ))}
           </nav>
         </div>
       </div>
