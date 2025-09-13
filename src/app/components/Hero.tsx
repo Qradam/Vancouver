@@ -8,26 +8,28 @@ export default function Hero() {
   const { ref: logoRef, isVisible: logoVisible } = useScrollAnimation();
 
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-center min-h-screen p-6 lg:p-12 bg-img-hero">
-      <div className=" space-y-8 max-w-2xl">
+    <section className="flex flex-col mt-6 lg:flex-row items-center justify-center min-h-0 lg:min-h-screen p-4 md:p-6 lg:p-12 bg-img-hero">
+
+
+      <div className="space-y-4 max-w-2xl">
         <div 
           ref={titleRef}
-          className={`space-y-4 transition-all duration-1000 ${
+          className={`space-y-3 md:space-y-4 transition-all duration-1000 ${
             titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <h1 className="text-6xl lg:text-8xl font-bold text-white leading-tight display-font">
+          <h1 className=" text-5xl md:text-6xl lg:text-8xl font-bold text-white leading-tight display-font">
             VANCOUVER<br />
             IMPACT
           </h1>
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed text-sm text-cen md:text-base">
             Vancouver's very own League of Legends Esports team, competing in the NACL. This organization intends to compete at the highest level, by breaking into the LTA North.
           </p>
         </div>
           
         <div 
           ref={buttonRef}
-          className={`flex flex-col sm:flex-row gap-4 transition-all duration-1000 z-10 delay-300 ${
+          className={`hidden md:flex flex-col md:flex-row gap-4 transition-all duration-1000 z-10 delay-300 ${
             buttonVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
@@ -44,7 +46,7 @@ export default function Hero() {
         </div>
       </div>
       
-      <div className=" flex  mt-12 lg:mt-0">
+      <div className=" flex  mt-0 lg:mt-0">
         <div>
           <img src="/logo.webp" alt="Hero Image" className="w-full h-full object-cover floating-animation" />
         </div>
