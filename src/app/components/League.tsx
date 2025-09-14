@@ -10,7 +10,7 @@ export default function League() {
   const { ref: buttonsRef, isVisible: buttonsVisible } = useScrollAnimation();
 
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-center p-4 py-20 md:p-6 lg:p-12 py-8 md:py-12 lg:py-16 bg-img-hero-reverse">
+    <section className="flex flex-col lg:flex-row items-center justify-center p-4 py-20 md:p-6 lg:p-12 py-8 md:py-12 lg:py-16 bg-img-hero-reverse sm:min-h-screen">
         <div 
           ref={containerRef}
           className={`bg-[#150E2190] w-full md:w-[90%] py-[3rem] md:py-[3rem] lg:py-[4rem] border border-[0.8px] border-w33 flex flex-col gap-[1.5rem] md:gap-[2rem] items-center justify-center transition-all duration-1000 ${

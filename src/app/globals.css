@@ -27,6 +27,17 @@ html {
   scroll-behavior: smooth;
 }
 
+/**
+BREAKS STICKY CARD, BUT CAN BE USED INSTEAD OF GLOBAL
+NECESSARY TO PREVENT HORIZONTAL SCROLL ON MOBILE**/
+@media (max-width: 640px) {
+  html, body {
+    overflow-x: hidden !important;
+  }
+}
+
+
+
 
 @font-face {
   font-family: "Proxima Nova";
