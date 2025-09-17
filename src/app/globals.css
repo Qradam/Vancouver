@@ -23,6 +23,21 @@ body {
   font-size: 14px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/**
+BREAKS STICKY CARD, BUT CAN BE USED INSTEAD OF GLOBAL
+NECESSARY TO PREVENT HORIZONTAL SCROLL ON MOBILE**/
+@media (max-width: 640px) {
+  html, body {
+    overflow-x: hidden !important;
+  }
+}
+
+
+
 
 @font-face {
   font-family: "Proxima Nova";
@@ -80,6 +95,11 @@ body {
 
 .angled-button-white {
   background: white;
+  color: black;
+}
+
+.angled-button-purple {
+  background: #8d50a9;
   color: black;
 }
 
