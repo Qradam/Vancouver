@@ -57,7 +57,7 @@ export default function SocialMedia() {
         </Link>
         
         <Link 
-          href="https://www.youtube.com/@NACL" 
+          href="https://www.youtube.com/@vancouverimpact" 
           target="_blank" 
           rel="noopener noreferrer"
           className="group relative bg-[#150E2190] py-[2rem] border border-[0.8px] border-w33 flex flex-col gap-[2rem] items-center justify-center cursor-pointer transition-all duration-300"
