@@ -13,16 +13,16 @@ export default function CharacterCards() {
       <div className="card-before sticky top-[15%] bg-[url('/3.webp')] bg-cover bg-bottom w-[60%] border border-[0.8px] border-w33 -skew-x-12 mb-8 ">
         <div className="flex justify-between gap-6 skew-x-12">
           <div className='flex flex-col pl-10 justify-center'>
-          <div className="w-6 h-6 bg-white rounded-sm flex items-center justify-center mb-5">
-            <img src="/" alt="" />
+          <div className="w-6 h-6  flex items-center justify-center mb-5">
+            <img src="/Top_icon.webp" alt="" />
           </div>
-          <div className="text-center">
+          <div className="text-left">
             {/* <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>*/}
             <p className="text-sm text-gray-400 mb-2">TOP LANE </p>
             <h2 className="text-4xl text-white font-bold italic">DRAGOON</h2>
           </div></div>
-          <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
-            <img src="/top.webp" alt="" className="w-full h-full object-contain" />
+          <div className="w-[36rem] h-[28rem] flex items-end justify-center -mt-[6rem]">
+            <img src="/top.webp" alt="" className="w-full h-full object-contain object-bottom" />
           </div>
         </div>
       </div>
@@ -31,16 +31,16 @@ export default function CharacterCards() {
       <div className="card-before sticky top-[15%] bg-[url('/4.webp')] bg-cover bg-bottom w-[60%] border border-[0.8px] border-w33 -skew-x-12 mb-8">
         <div className="flex justify-between gap-6 skew-x-12">
           <div className='flex flex-col pl-10 justify-center'>
-          <div className="w-6 h-6 bg-white rounded-sm flex items-center justify-center mb-5">
-            <img src="/" alt="" />
+          <div className="w-6 h-6 flex items-center justify-center mb-5">
+            <img src="/Jungle_icon.webp" alt="" />
           </div>
-          <div className="text-center">
+          <div className="text-left">
             {/* <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>*/}
             <p className="text-sm text-gray-400 mb-2">JUNGLE </p>
             <h2 className="text-4xl text-white font-bold italic">SHIMMER</h2>
           </div></div>
-          <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
-            <img src="/top.webp" alt="" className="w-full h-full object-contain" />
+          <div className="w-[36rem] h-[28rem] flex items-end justify-center -mt-[6rem]">
+            <img src="/jg.webp" alt="" className="w-full h-full object-contain object-bottom" />
           </div>
         </div>
       </div>
@@ -49,16 +49,16 @@ export default function CharacterCards() {
       <div className="card-before sticky top-[15%] bg-[url('/1.webp')] bg-cover bg-bottom w-[60%] border border-[0.8px] border-w33 -skew-x-12 mb-8">
         <div className="flex justify-between gap-6 skew-x-12">
           <div className='flex flex-col pl-10 justify-center'>
-          <div className="w-6 h-6 bg-white rounded-sm flex items-center justify-center mb-5">
-            <img src="/" alt="" />
+          <div className="w-6 h-6 flex items-center justify-center mb-5">
+            <img src="/Middle_icon.webp" alt="" />
           </div>
-          <div className="text-center">
+          <div className="text-left">
             {/* <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>*/}
             <p className="text-sm text-gray-400 mb-2">MID LANE </p>
             <h2 className="text-4xl text-white font-bold italic">SUDZZI</h2>
           </div></div>
-          <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
-            <img src="/top.webp" alt="" className="w-full h-full object-contain" />
+          <div className="w-[36rem] h-[28rem] flex items-end justify-center -mt-[6rem]">
+            <img src="/mid.webp" alt="" className="w-full h-full object-contain object-bottom" />
           </div>
         </div>
       </div>
@@ -67,16 +67,16 @@ export default function CharacterCards() {
       <div className="card-before sticky top-[15%] bg-[url('/5.webp')] bg-cover bg-bottom w-[60%] border border-[0.8px] border-w33 -skew-x-12 mb-8">
         <div className="flex justify-between gap-6 skew-x-12">
           <div className='flex flex-col pl-10 justify-center'>
-          <div className="w-6 h-6 bg-white rounded-sm flex items-center justify-center mb-5">
-            <img src="/" alt="" />
+          <div className="w-6 h-6 flex items-center justify-center mb-5">
+            <img src="/Bottom_icon.webp" alt="" />
           </div>
-          <div className="text-center">
+          <div className="text-left">
             {/* <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>*/}
             <p className="text-sm text-gray-400 mb-2">BOT LANE </p>
             <h2 className="text-4xl text-white font-bold italic">ZEV</h2>
           </div></div>
-          <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
-            <img src="/top.webp" alt="" className="w-full h-full object-contain" />
+          <div className="w-[36rem] h-[28rem] flex items-end justify-center -mt-[6rem]">
+            <img src="/adc.webp" alt="" className="w-full h-full object-contain object-bottom" />
           </div>
         </div>
       </div>
@@ -85,16 +85,16 @@ export default function CharacterCards() {
       <div className="card-before sticky top-[15%] bg-[url('/2.webp')] bg-cover bg-bottom w-[60%] border border-[0.8px] border-w33 -skew-x-12 mb-8">
         <div className="flex justify-between gap-6 skew-x-12 ">
           <div className='flex flex-col pl-10 justify-center'>
-          <div className="w-6 h-6 bg-white rounded-sm flex items-center justify-center mb-5">
-            <img src="/" alt="" />
+          <div className="w-6 h-6 flex items-center justify-center mb-5">
+            <img src="/Support_icon.webp" alt="" />
           </div>
-          <div className="text-center">
+          <div className="text-left">
             {/* <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>*/}
             <p className="text-sm text-gray-400 mb-2">SUPPORT </p>
             <h2 className="text-4xl text-white font-bold italic">NUKEZ</h2>
           </div></div>
-          <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
-            <img src="/top.webp" alt="" className="w-full h-full object-contain" />
+          <div className="w-[36rem] h-[28rem] flex items-end justify-center -mt-[6rem]">
+            <img src="/supp.webp" alt="" className="w-full h-full object-contain object-bottom" />
           </div>
         </div>
       </div>
@@ -104,16 +104,16 @@ export default function CharacterCards() {
       <div className="card-before sticky top-[15%] bg-[url('/2.webp')] bg-cover bg-bottom w-[60%] border border-[0.8px] border-w33 -skew-x-12 mb-8">
         <div className="flex justify-between gap-6 skew-x-12 ">
           <div className='flex flex-col pl-10 justify-center'>
-          <div className="w-6 h-6 bg-white rounded-sm flex items-center justify-center mb-5">
-            <img src="/" alt="" />
+          <div className="w-6 h-6  rounded-sm flex items-center justify-center mb-5">
+            <img src="/Support_icon.webp" alt="" />
           </div>
-          <div className="text-center">
+          <div className="text-left">
             {/* <p className="text-sm text-gray-400 mb-2">Name &quot;name&quot; name</p>*/}
             <p className="text-sm text-gray-400 mb-2">COACH </p>
             <h2 className="text-4xl text-white font-bold italic">TAKI</h2>
           </div></div>
-          <div className="w-[22rem] h-[28rem] flex items-center justify-center -mt-[6rem]">
-            <img src="/top.webp" alt="" className="w-full h-full object-contain" />
+          <div className="w-[36rem] h-[28rem] flex items-end justify-center -mt-[6rem]">
+            <img src="/top.webp" alt="" className="w-full h-full object-contain object-bottom" />
           </div>
         </div>
       </div>

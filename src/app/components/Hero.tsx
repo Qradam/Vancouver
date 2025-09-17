@@ -27,20 +27,24 @@ export default function Hero() {
           
         <div 
           ref={buttonRef}
-          className={`flex flex-col sm:flex-row gap-4 transition-all duration-1000 z-10 delay-300 ${
+          className={`flex flex-row gap-4 transition-all duration-1000 z-10 delay-300 relative ${
             buttonVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <button className="angled-button angled-button-pink px-8 py-3">
-            <div className="angled-button-content">
-              BUTTON
-            </div>
-          </button>
-          <button className="angled-button angled-button-white px-8 py-3">
-            <div className="angled-button-content">
-              BUTTON
-            </div>
-          </button>
+          <a href="/roster">
+            <button className="angled-button angled-button-pink px-8 py-3">
+              <div className="angled-button-content">
+                BUTTON
+              </div>
+            </button>
+          </a>
+          <a href="/contact">
+            <button className="angled-button angled-button-white px-8 py-3">
+              <div className="angled-button-content">
+                BUTTON
+              </div>
+            </button>
+          </a>
         </div>
       </div>
       
