@@ -16,13 +16,12 @@ export default function Hero() {
             titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <h1 className="text-6xl lg:text-8xl font-bold text-white leading-tight display-font">
+          <h1 className="text-5xl lg:text-8xl font-bold text-white leading-tight display-font">
             VANCOUVER<br />
             IMPACT
           </h1>
-          <p className="text-gray-300 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur. Congue nulla sed turpis vulputate sit quam. 
-            Dis sit etiam vestibulum sit laoreet. Dui risus odio arcu venenatis lobortis malesuada in eleifend.
+          <p className="text-sm md:text-base text-gray-300 leading-relaxed">
+            Vancouver's very own League of Legends Esports team, competing in the NACL. This organization intends to compete at the highest level, by breaking into the LTA North.
           </p>
         </div>
         

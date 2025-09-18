@@ -18,12 +18,12 @@ export default function LatestUpdates() {
         <div className="px-6 mb-8">
           <div 
             ref={titleRef}
-            className={`flex justify-between items-center transition-all duration-1000 ${
+            className={`flex justify-between items-center transition-all duration-1000 flex-col md:flex-row  ${
               titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}
           >
-            <h2 className="text-4xl font-bold text-white italic">Latest Updates</h2>
-            <Link href="/articles" className="angled-button angled-button-white px-6 py-2">
+            <h2 className="text-3xl md:text-4xl font-bold text-white italic">Latest Updates</h2>
+            <Link href="/articles" className="angled-button angled-button-white px-6 py-2 mt-4 md:mt-0">
               <div className="angled-button-content">
                 SEE ALL
               </div>
@@ -76,7 +76,7 @@ export default function LatestUpdates() {
                     <div className="skew-x-12 h-full flex flex-col justify-between p-4">
                       {/* Title */}
                       <div className="mt-4 pl-6">
-                        <h3 className="text-white font-semibold text-base">{article.title}</h3>
+                        <h3 className="text-white font-semibold text-sm md:text-base">{article.title}</h3>
                       </div>
                       
                       {/* Buttons - Floating Right */}

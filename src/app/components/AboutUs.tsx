@@ -16,8 +16,8 @@ export default function AboutUs() {
               contentVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
             }`}
           >
-            <h2 className="text-4xl font-bold text-white italic">ABOUT US</h2>
-            <p className="text-gray-300 leading-relaxed">
+            <h2 className="text-3xl md:text-4xl font-bold text-white italic">ABOUT US</h2>
+            <p className="text-sm md:text-base text-gray-300 leading-relaxed">
               Lorem ipsum dolor sit amet consectetur. Congue nulla sed turpis vulputate sit quam. 
               Dis sit etiam vestibulum sit laoreet. Dui risus odio arcu venenatis lobortis malesuada in eleifend.
             </p>

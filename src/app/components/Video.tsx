@@ -27,8 +27,8 @@ export default function Video() {
             textVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white italic">
-            Video Section Title
+          <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-white italic">
+            Highlights 
           </h2>
         </div>
       </div>

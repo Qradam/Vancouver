@@ -24,7 +24,7 @@ export default function SocialMedia() {
         >
           <img src="/Discord.webp" alt="Discord" className="transition-transform duration-300 group-hover:scale-105" width={150} />
           <div className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <span className="text-white text-sm font-medium">{'>>'} Join</span>
+            <span className="text-white text-xs md:text-sm font-medium">{'>>'} Join</span>
           </div>
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-[rgba(21,14,33,0)] to-[rgba(59,130,246,0.076)] to-[rgba(21,14,33,0.61)] border border-[rgba(255,255,255,0.33)] pointer-events-none"></div>
         </Link>
@@ -33,12 +33,12 @@ export default function SocialMedia() {
           href="https://x.com" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="group relative bg-[#150E2190] w-full md:w-[48%] lg:w-[25%] py-[2rem] border border-[0.8px] border-w33 flex flex-col gap-[2rem] items-center justify-center cursor-pointer transition-all duration-300"
+          className="group relative bg-[#150E2190] w-full md:w-[48%] lg:w-[25%] py-[2rem] border border-[0.8px] border-w33 flex flex-col gap-[2rem] items-center justify-center cursor-pointer transition-all duration-300 mb-4 md:mb-0"
           style={{ transitionDelay: '200ms' }}
         >
           <img src="/X.webp" alt="X (Twitter)" className="transition-transform duration-300 group-hover:scale-105" width={150} />
           <div className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <span className="text-white text-sm font-medium">{'>>'} Join</span>
+            <span className="text-white text-xs md:text-sm font-medium">{'>>'} Join</span>
           </div>
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-[rgba(21,14,33,0)] to-[rgba(213,50,242,0.076)] to-[rgba(21,14,33,0.61)] border border-[rgba(255,255,255,0.33)] pointer-events-none"></div>
         </Link>
@@ -59,7 +59,7 @@ export default function SocialMedia() {
         >
           <img src="/twitch.webp" alt="Twitch" className="transition-transform duration-300 group-hover:scale-105" width={150} />
           <div className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <span className="text-white text-sm font-medium">{'>>'} Join</span>
+            <span className="text-white text-xs md:text-sm font-medium">{'>>'} Join</span>
           </div>
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-[rgba(21,14,33,0)] to-[rgba(213,50,242,0.076)] to-[rgba(21,14,33,0.61)] border border-[rgba(255,255,255,0.33)] pointer-events-none"></div>
         </Link>
@@ -68,12 +68,12 @@ export default function SocialMedia() {
           href="https://youtube.com" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="group relative bg-[#150E2190] w-full md:w-[48%] lg:w-[25%] py-[2rem] border border-[0.8px] border-w33 flex flex-col gap-[2rem] items-center justify-center cursor-pointer transition-all duration-300"
+          className="group relative bg-[#150E2190] w-full md:w-[48%] lg:w-[25%] py-[2rem] border border-[0.8px] border-w33 flex flex-col gap-[2rem] items-center justify-center cursor-pointer transition-all duration-300 mb-4 md:mb-0"
           style={{ transitionDelay: '200ms' }}
         >
           <img src="/youtube.webp" alt="YouTube" className="transition-transform duration-300 group-hover:scale-105" width={150} />
           <div className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <span className="text-white text-sm font-medium">{'>>'} Join</span>
+            <span className="text-white text-xs md:text-sm font-medium">{'>>'} Join</span>
           </div>
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-[rgba(21,14,33,0)] to-[rgba(239,68,68,0.076)] to-[rgba(21,14,33,0.61)] border border-[rgba(255,255,255,0.33)] pointer-events-none"></div>
         </Link>

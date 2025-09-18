@@ -28,7 +28,7 @@ export default function League() {
             
             <h2 
               ref={titleRef}
-              className={`text-xl md:text-2xl lg:text-4xl font-bold text-white italic text-center px-4 md:px-8 transition-all duration-1000 delay-400 ${
+              className={`text-lg md:text-2xl lg:text-4xl font-bold text-white italic text-center px-4 md:px-8 transition-all duration-1000 delay-400 ${
                 titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`}
             >
@@ -46,11 +46,15 @@ export default function League() {
                   BUTTON
                 </div>
               </button>
-              <button className="angled-button angled-button-white px-6 md:px-8 py-2 md:py-3 text-sm md:text-base">
+
+
+
+              <button className="angled-button angled-button-purple px-6 md:px-8 py-2 md:py-3 text-sm md:text-base">
                 <div className="angled-button-content">
-                  BUTTON
+                  <a href="https://www.twitch.tv/videos/2534785642?t=2h36m51s" target="_blank" rel="noopener noreferrer">VOD</a>
                 </div>
               </button>
+              
             </div>
         </div>
     </section> 
