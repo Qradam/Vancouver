@@ -8,7 +8,7 @@ export default function Header() {
   
   return (
     <>
-      <header className="flex flex-col md:flex-row justify-between items-center p-4 md:p-6 backdrop-blur-sm border border-[0.8px] border-w33 relative z-50">
+      <header id="header" className="flex flex-col md:flex-row justify-between items-center p-4 md:p-6 backdrop-blur-sm border border-[0.8px] border-w33 relative z-50">
         <div className="flex items-center space-x-4 w-full md:w-auto justify-between md:justify-start">
           <div className="flex items-center space-x-4">
             <img src="/logo.svg" alt="League" className="" width={48} height={48}/>

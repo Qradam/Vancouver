@@ -2,7 +2,7 @@
 
 export default function CharacterCards() {
   return (
-    <section className="flex flex-col items-center justify-center p-6 lg:p-12 min-h-screen bg-gradient-blur ">
+    <section id="characterCards" className="flex flex-col items-center justify-center p-6 lg:p-12 min-h-screen bg-gradient-blur ">
       {/* Original content */}
       <div className=" w-[90%] py-[4rem] flex flex-col gap-[2rem] items-center justify-center mb-12">
         <img src="/logoxleague.png" alt="League" className="" />

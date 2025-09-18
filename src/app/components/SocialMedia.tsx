@@ -8,8 +8,8 @@ export default function SocialMedia() {
   const { ref: bottomRowRef, isVisible: bottomRowVisible } = useScrollAnimation();
 
   return (
-    <section className="backdrop-gradient">
-      <div 
+    <section id="socialMedia">
+     <div className="backdrop-gradient py-8 md:py-0"> <div 
         ref={topRowRef}
         className={`flex flex-col md:flex-row items-center justify-center lg:pt-12 border-t border-w33 px-6 md:px-12 transition-all duration-1000 ${
           topRowVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
@@ -77,7 +77,7 @@ export default function SocialMedia() {
           </div>
           <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-[rgba(21,14,33,0)] to-[rgba(239,68,68,0.076)] to-[rgba(21,14,33,0.61)] border border-[rgba(255,255,255,0.33)] pointer-events-none"></div>
         </Link>
-      </div>
+      </div> </div>
     </section>
   );
 }

@@ -8,7 +8,7 @@ export default function Hero() {
   const { ref: logoRef, isVisible: logoVisible } = useScrollAnimation();
 
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-center min-h-screen p-6 lg:p-12 bg-img-hero">
+    <section id="hero" className="flex flex-col lg:flex-row items-center justify-center min-h-screen p-6 lg:p-12 bg-img-hero">
       <div className=" space-y-8 max-w-2xl">
         <div 
           ref={titleRef}

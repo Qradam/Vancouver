@@ -13,7 +13,7 @@ export default function LatestUpdates() {
   const { ref: cardsRef, isVisible: cardsVisible } = useScrollAnimation();
 
   return (
-    <section className="py-12 px-0 w-full">
+    <section id="latestUpdates" className="py-12 px-0 w-full">
       <div className="w-full backdrop-gradient">
         <div className="px-6 mb-8">
           <div 
@@ -23,7 +23,7 @@ export default function LatestUpdates() {
             }`}
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white italic">Latest Updates</h2>
-            <Link href="/articles" className="angled-button angled-button-white px-6 py-2 mt-4 md:mt-0">
+            <Link href="/articles" className="angled-button angled-button-white px-8 py-3 mt-4 md:mt-0">
               <div className="angled-button-content">
                 SEE ALL
               </div>

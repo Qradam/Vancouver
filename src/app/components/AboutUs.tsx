@@ -7,7 +7,7 @@ export default function AboutUs() {
   const { ref: imageRef, isVisible: imageVisible } = useScrollAnimation();
 
   return (
-    <section className="py-12 px-6 min-h-screen flex items-center">
+    <section id="aboutUs" className="py-12 px-6 min-h-screen flex items-center">
       <div className="max-w-7xl m-auto w-full ">
         <div className="flex flex-col lg:flex-row gap-12 items-center justify-center w-full">
           <div 
@@ -21,7 +21,7 @@ export default function AboutUs() {
               Lorem ipsum dolor sit amet consectetur. Congue nulla sed turpis vulputate sit quam. 
               Dis sit etiam vestibulum sit laoreet. Dui risus odio arcu venenatis lobortis malesuada in eleifend.
             </p>
-            <button className="angled-button bg-pink-600 text-black px-8 py-4">
+            <button className="angled-button bg-pink-600 text-black px-8 py-3">
               <div className="angled-button-content">
                 SEE MORE
               </div>
