@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 export default function Hero() {
@@ -33,12 +34,12 @@ export default function Hero() {
         >
           <button className="angled-button angled-button-pink px-8 py-3">
             <div className="angled-button-content">
-            <a href="https://lolesports.com/teams/vancouver-impact" target="_blank" rel="noopener noreferrer">SCHEDULE</a>
+            <Link href="https://lolesports.com/teams/vancouver-impact" target="_blank" rel="noopener noreferrer">SCHEDULE</Link>
             </div>
           </button>
           <button className="angled-button angled-button-white px-8 py-3">
             <div className="angled-button-content">
-            <a href="#characterCards" rel="noopener noreferrer">ROSTER</a>
+            <Link href="#characterCards">ROSTER</Link>
             </div>
           </button>
         </div>

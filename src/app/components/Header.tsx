@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,13 +29,13 @@ export default function Header() {
         
         <nav className="hidden md:flex space-x-8">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
               className="text-white uppercase font-medium hover:text-pink-400 transition-colors duration-300 hover:scale-105 transform"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </nav>
       </header>
@@ -42,7 +43,7 @@ export default function Header() {
       <div className={`md:hidden fixed top-0 left-0 w-full h-full bg-black/50 backdrop-blur-sm z-40 transition-all duration-300 ease-out ${isOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
         <nav className={`flex flex-col items-center justify-center h-full space-y-8 transition-all duration-300 ease-out ${isOpen ? 'translate-y-0' : '-translate-y-8'} text-center`}>
           {navItems.map((item, index) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
               onClick={() => setIsOpen(false)}
@@ -50,7 +51,7 @@ export default function Header() {
               style={{transitionDelay: isOpen ? `${index * 100}ms` : '0ms'}}
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </nav>
       </div>

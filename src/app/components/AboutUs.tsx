@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 export default function AboutUs() {
@@ -25,7 +26,7 @@ export default function AboutUs() {
             </p>
             <button className="angled-button bg-pink-600 text-black px-8 py-3">
               <div className="angled-button-content">
-                <a href="mailto:yvrimpact@gmail.com">CONTACT US</a>
+                <Link href="mailto:yvrimpact@gmail.com">CONTACT US</Link>
               </div>
             </button>
           </div>

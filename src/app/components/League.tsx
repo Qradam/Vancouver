@@ -43,7 +43,7 @@ export default function League() {
             >
               <button className="angled-button angled-button-pink px-8 py-3">
                 <div className="angled-button-content">
-                <a href="/#aboutUs"  rel="noopener noreferrer">ABOUT US</a>
+                <Link href="/#aboutUs">ABOUT US</Link>
                 </div>
               </button>
 
@@ -51,7 +51,7 @@ export default function League() {
 
               <button className="angled-button angled-button-purple px-8 py-3">
                 <div className="angled-button-content">
-                  <a href="https://www.twitch.tv/videos/2534785642?t=2h36m51s" target="_blank" rel="noopener noreferrer">VOD</a>
+                  <Link href="https://www.twitch.tv/videos/2534785642?t=2h36m51s" target="_blank" rel="noopener noreferrer">VOD</Link>
                 </div>
               </button>
               
