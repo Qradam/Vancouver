@@ -32,7 +32,7 @@ export default function League() {
                 titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
               }`}
             >
-              Lorem ipsum dolor sit amet consectetur. Congue 
+              Canadian Esports Organization
             </h2>
             
             <div 
@@ -43,7 +43,7 @@ export default function League() {
             >
               <button className="angled-button angled-button-pink px-8 py-3">
                 <div className="angled-button-content">
-                  BUTTON
+                <a href="/#aboutUs"  rel="noopener noreferrer">ABOUT US</a>
                 </div>
               </button>
 

@@ -13,7 +13,7 @@ export default function Header() {
           <div className="flex items-center space-x-4">
             <img src="/logo.svg" alt="League" className="" width={48} height={48}/>
             <p className="text-gray-300 text-xs md:text-sm max-w-xs">
-              Vancouver Impact <br></br>Canadian Esports Organization
+              Vancouver Impact <br></br>#VIPTreatment
             </p>
           </div>
           

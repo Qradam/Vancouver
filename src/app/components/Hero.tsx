@@ -33,12 +33,12 @@ export default function Hero() {
         >
           <button className="angled-button angled-button-pink px-8 py-3">
             <div className="angled-button-content">
-              BUTTON
+            <a href="https://lolesports.com/teams/vancouver-impact" target="_blank" rel="noopener noreferrer">SCHEDULE</a>
             </div>
           </button>
           <button className="angled-button angled-button-white px-8 py-3">
             <div className="angled-button-content">
-              BUTTON
+            <a href="#characterCards" rel="noopener noreferrer">ROSTER</a>
             </div>
           </button>
         </div>

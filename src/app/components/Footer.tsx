@@ -11,8 +11,9 @@ export default function Footer() {
           <div className="flex items-center space-x-4">
           <img src="/logo.svg" alt="League" className="" width={48} height={48}/>
             <p className="text-gray-300 text-xs md:text-sm max-w-md">
-              Lorem ipsum dolor sit amet consectetur. Congue nulla sed turpis vulputate sit quam. 
-              Dis sit etiam vestibulum sit laoreet. Dui risus odio arcu venenatis lobortis malesuada in eleifend.
+              Vancouver's very own League of Legends Esports team, competing in the NACL. This organization intends to compete at the highest level, by breaking into the LTA North.
+            <br /><br />
+              Business Inquiries: yvrimpact@gmail.com
             </p>
           </div>
           

@@ -20,10 +20,12 @@ export default function AboutUs() {
             <p className="text-sm md:text-base text-gray-300 leading-relaxed">
               Lorem ipsum dolor sit amet consectetur. Congue nulla sed turpis vulputate sit quam. 
               Dis sit etiam vestibulum sit laoreet. Dui risus odio arcu venenatis lobortis malesuada in eleifend.
+            <br /><br />
+              Business Inquiries: yvrimpact@gmail.com
             </p>
             <button className="angled-button bg-pink-600 text-black px-8 py-3">
               <div className="angled-button-content">
-                SEE MORE
+                <a href="mailto:yvrimpact@gmail.com">CONTACT US</a>
               </div>
             </button>
           </div>
