@@ -19,8 +19,8 @@ export default function AboutUs() {
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white italic">ABOUT US</h2>
             <p className="text-sm md:text-base text-gray-300 leading-relaxed">
-              Lorem ipsum dolor sit amet consectetur. Congue nulla sed turpis vulputate sit quam. 
-              Dis sit etiam vestibulum sit laoreet. Dui risus odio arcu venenatis lobortis malesuada in eleifend.
+              Vancouver Impact is a premier Canadian esports organization proudly representing Vancouver in the North American Challengers League.
+              Join us as we continue our journey toward the LTA North, and be part of Vancouver’s rising legacy in esports.<br></br><strong>#VIPTreatment</strong>
             <br /><br />
               Business Inquiries: yvrimpact@gmail.com
             </p>
