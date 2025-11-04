@@ -79,7 +79,7 @@ export default function LatestUpdates() {
                       {/* Title */}
                       <div className="mt-4 pl-6">
                         <h3 className="text-white font-semibold text-sm  md:text-base" style="
-    padding-bottom: 3rem;>{article.title}</h3>
+    padding-bottom: 3rem;">{article.title}</h3>
                       </div>
                       
                       {/* Buttons - Floating Right */}
