@@ -40,6 +40,8 @@ export default function LatestUpdates() {
           <Swiper
             spaceBetween={24}
             slidesPerView={1}
+            centeredSlides={articles.length === 1}
+
             breakpoints={{
               640: {
                 slidesPerView: 2,
@@ -70,7 +72,7 @@ export default function LatestUpdates() {
                   }}
                 >
                   <div 
-                    className="card-updates relative border border-[0.8px] border-w33 -skew-x-12 overflow-hidden h-80 bg-cover bg-center"
+                    className="card-updates relative border border-[0.8px] border-w33 -skew-x-12 overflow-hidden bg-cover bg-center"
                     style={{ backgroundImage: `url(${article.image})` }}
                   >
                     <div className="skew-x-12 h-full flex flex-col justify-between p-4">

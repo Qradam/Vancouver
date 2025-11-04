@@ -57,7 +57,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         {/* Article Content */}
         <div className="bg-[#150E2190] border border-[0.8px] border-w33 p-8">
           <div className="prose prose-invert max-w-none">
-            <p className="text-white leading-relaxed text-lg">
+            <p className="text-white leading-relaxed text-lg whitespace-pre-line">
               {article.content}
             </p>
           </div>

@@ -1,124 +1,14 @@
 [
   {
     "id": 1,
-    "slug": "lorem-ipsum-1",
-    "title": "Lorem Ipsum",
-    "type": "NEWS",
+    "slug": "100t-comeback-opinion",
+    "title": "My Pick ‘Ems are ruined (This is a good thing.)",
+    "type": "OPINION",
     "image": "/temp-img.webp",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-15",
-    "author": "Vancouver Impact"
-  },
-  {
-    "id": 2,
-    "slug": "lorem-ipsum-2", 
-    "title": "Lorem Ipsum",
-    "type": "NEWS",
-    "image": "/temp-img.webp",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-14",
-    "author": "Vancouver Impact"
-  },
-  {
-    "id": 3,
-    "slug": "lorem-ipsum-3",
-    "title": "Lorem Ipsum", 
-    "type": "NEWS",
-    "image": "/temp-img.webp",
-    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-13",
-    "author": "Vancouver Impact"
-  },
-  {
-    "id": 4,
-    "slug": "team-announcement-2025",
-    "title": "Team Roster Announcement 2025",
-    "type": "ANNOUNCEMENT",
-    "image": "/temp-img.webp",
-    "excerpt": "Vancouver Impact reveals its complete roster for the upcoming competitive season with new strategic additions.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-12",
-    "author": "Vancouver Impact"
-  },
-  {
-    "id": 5,
-    "slug": "tournament-victory",
-    "title": "Major Tournament Victory",
-    "type": "ACHIEVEMENT",
-    "image": "/temp-img.webp",
-    "excerpt": "Our team secures a decisive victory in the latest major tournament, showcasing exceptional teamwork and strategy.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-11",
-    "author": "Vancouver Impact"
-  },
-  {
-    "id": 6,
-    "slug": "partnership-announcement",
-    "title": "New Partnership Announcement",
-    "type": "PARTNERSHIP",
-    "image": "/temp-img.webp",
-    "excerpt": "Vancouver Impact announces exciting new partnership with leading gaming technology company.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-10",
-    "author": "Vancouver Impact"
-  },
-  {
-    "id": 7,
-    "slug": "community-event",
-    "title": "Community Meet & Greet Event",
-    "type": "EVENT",
-    "image": "/temp-img.webp",
-    "excerpt": "Join us for an exclusive community event where fans can meet the team and participate in special activities.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-09",
-    "author": "Vancouver Impact"
-  },
-  {
-    "id": 8,
-    "slug": "training-facility",
-    "title": "New Training Facility Opening",
-    "type": "FACILITY",
-    "image": "/temp-img.webp",
-    "excerpt": "State-of-the-art training facility now open, featuring cutting-edge equipment and dedicated practice spaces.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-08",
-    "author": "Vancouver Impact"
-  },
-  {
-    "id": 9,
-    "slug": "merchandise-launch",
-    "title": "New Merchandise Collection Launch",
-    "type": "MERCHANDISE",
-    "image": "/temp-img.webp",
-    "excerpt": "Exclusive new merchandise collection featuring team jerseys, accessories, and limited edition items now available.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-07",
-    "author": "Vancouver Impact"
-  },
-  {
-    "id": 10,
-    "slug": "season-preview",
-    "title": "2025 Season Preview",
-    "type": "PREVIEW",
-    "image": "/temp-img.webp",
-    "excerpt": "Comprehensive preview of the upcoming competitive season with analysis of key matchups and team strategies.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-06",
-    "author": "Vancouver Impact"
-  },
-  {
-    "id": 11,
-    "slug": "charity-tournament",
-    "title": "Charity Tournament Success",
-    "type": "CHARITY",
-    "image": "/temp-img.webp",
-    "excerpt": "Record-breaking charity tournament raises significant funds for local community organizations and causes.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "date": "2025-01-05",
-    "author": "Vancouver Impact"
+    "excerpt": "My Pick ‘Ems are ruined (This is a good thing.)",
+    "content": "My skin is clear. My crops are flourishing. My Pick ‘Ems are ruined (This is a good thing.).\n\n 100T 1–0 BLGI have to admit, I was a doubter. North America has never won worlds. Some years, our first seed hasn’t even made it out of groups (TSM 0–6 Worlds any% never forget). I try not to cheer for NA teams because I can’t handle the heartbreak. I didn’t watch game 5 of FLY vs GenG last year because I was afraid to watch them lose (They lost ┬┬﹏┬┬). So this year, I told myself I wasn’t gonna get my hopes up.\n\n  But 100Thieves have changed my mind. \n\nFrom 6th to runner-up to LTA 3rd seed, it’s impossible not to get excited for the Thieves. Especially after last night, with 100T Dhokla, Big Dhokes, Mr. D. H. Kola, our North American knight in Sion armour, steamrolling through fights and solo-killing BLG Knight under BLG’s inhibitor turret. (Of course, the rest of the team did well too, but Sion is my third favourite champion. I’m allowed to have my bias.)\n\n The team might be disbanding after this season, but the players living up to the Worlds theme. I have a feeling the Thieves are going to steal a spot in semis and Earn Their Legacy.\n\n Or I’m speaking too soon and they’re not making it out of Swiss. \n\nWho knows? We’ll find out at 4:00 AM EST, when 100T roll TES (✿◠‿◠)",
+    "date": "2025-11-03",
+    "author": "sweetbutsalty"
   }
 ]
 
