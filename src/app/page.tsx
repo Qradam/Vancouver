@@ -4,6 +4,7 @@ import League from './components/League';
 import Video from './components/Video';
 import SocialMedia from './components/SocialMedia';
 import CharacterCards from './components/CharacterCards';
+import LeagueTeams from './components/LeagueTeams';
 import LatestUpdates from './components/LatestUpdates';
 import AboutUs from './components/AboutUs';
 import Footer from './components/Footer';
@@ -17,6 +18,7 @@ export default function Home() {
       <Video />
       <SocialMedia />
       <CharacterCards />
+      <LeagueTeams />
       <LatestUpdates />
       <AboutUs />
       <Footer />

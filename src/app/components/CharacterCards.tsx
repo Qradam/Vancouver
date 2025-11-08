@@ -159,6 +159,7 @@ export default function CharacterCards() {
           </div>
         </div>
       </div>
+
     </section>
   );
 }
